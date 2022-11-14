@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="bodybg" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.MainController">
+   <children>
+      <Text fill="WHITE" layoutX="221.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sun Devil Pizza">
+         <font>
+            <Font name="Bodoni MT Bold" size="56.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="77.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ready To Cook">
+         <font>
+            <Font name="Bodoni MT Bold" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="519.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cooking">
+         <font>
+            <Font name="Bodoni MT Bold" size="36.0" />
+         </font>
+      </Text>
+      <AnchorPane layoutX="69.0" layoutY="172.0" prefHeight="67.0" prefWidth="663.0" style="-fx-background-color: #fff;">
+         <children>
+            <Text fill="#4b83fc" layoutX="25.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID: 0025F">
+               <font>
+                  <Font name="Bodoni MT Bold" size="36.0" />
+               </font>
+            </Text>
+            <Button fx:id="moverc" layoutX="454.0" layoutY="17.0" mnemonicParsing="false" onAction="#movercClicked" prefHeight="25.0" prefWidth="138.0" style="-fx-background-color: #008cff;" text="Move" textFill="WHITE">
+               <font>
+                  <Font name="Bodoni MT Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <Button fx:id="back" layoutX="332.0" layoutY="433.0" mnemonicParsing="false" onAction="#backClicked" prefHeight="25.0" prefWidth="138.0" style="-fx-background-color: #008cff;" text="BACK" textFill="WHITE">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

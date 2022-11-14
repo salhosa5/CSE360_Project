@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" styleClass="bodybg" stylesheets="@../styles/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.MainController">
+   <children>
+      <Text fill="WHITE" layoutX="221.0" layoutY="75.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sun Devil Pizza">
+         <font>
+            <Font name="Bodoni MT Bold" size="56.0" />
+         </font>
+      </Text>
+      <Button fx:id="accOrd" layoutX="282.0" layoutY="233.0" mnemonicParsing="false" onAction="#accOrdClicked" prefHeight="34.0" prefWidth="236.0" style="-fx-background-color: #FFF;" text="Accepted Orders" textFill="#008cff">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Text fill="WHITE" layoutX="264.0" layoutY="157.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME">
+         <font>
+            <Font name="Bodoni MT Bold" size="56.0" />
+         </font>
+      </Text>
+      <Button fx:id="readyCOrd" layoutX="282.0" layoutY="295.0" mnemonicParsing="false" onAction="#readyCOrdClicked" prefHeight="34.0" prefWidth="236.0" style="-fx-background-color: #FFF;" text="Ready To Cook Orders" textFill="#008cff">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="readyOrd" layoutX="282.0" layoutY="357.0" mnemonicParsing="false" onAction="#readyOrdClicked" prefHeight="34.0" prefWidth="236.0" style="-fx-background-color: #FFF;" text="Ready Orders" textFill="#008cff">
+         <font>
+            <Font name="Bodoni MT Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
